@@ -1,0 +1,34 @@
+.sidenav {
+    height: 90%;  
+    width: 15%;  
+    position: fixed; 
+    z-index: 1; 
+    top: 40px; 
+    left: 0; 
+    background-color:#8cb1cf; 
+    transition: .5s ease; 
+    overflow-x: hidden; 
+    padding-top: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.sidenav button {
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: #8cb1cf;
+    border-radius: 5%;
+    padding: 15px 0 15px 0;
+    margin: 5px 0 5px 0;
+}
+
+.sidenav button:hover,
+.sidenav button:active {
+    color: white;
+    background-color: #3c6180;
+}

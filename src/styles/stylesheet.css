@@ -1,0 +1,18 @@
+body {
+    /* background-color: beige; */
+    background-image: url("https://images.unsplash.com/photo-1495465798138-718f86d1a4bc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvbWUlMjBvZmZpY2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: 1368px 1195px;
+    background-position: center;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 2px;
+    text-align: center;  
+    font-size: 16px;
+    margin: 0 0 20px 10px;
+}
