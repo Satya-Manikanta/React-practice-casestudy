@@ -1,13 +1,11 @@
-body{
-    height: 100%;
-}
 
 .login-Container {
     width: 85%;
-    height: 200%;
+    height: 100vh;
     margin-top: 40px;
-    background-color: rgb(98, 135, 168);
+    background-color: rgb(102, 137, 168);
     color: black;
+    display: block;
 }
 
 .login-Container-form {
