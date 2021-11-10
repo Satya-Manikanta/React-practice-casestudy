@@ -34,7 +34,9 @@ class Users extends Component {
     
     render() {
         return <div className="login-Container">
-            <input className="search-input" type="text" name="search" placeholder="Search using fullname..." onChange={this.handleChange}></input>
+            <div style={{textAlign: "center"}}>
+                <input className="search-input" type="text" name="search" placeholder="Search using fullname..." onChange={this.handleChange}></input>
+            </div>
             <div className="login-Container-data">
                 {this.state.filteredData.map((user, index) => (<User key={index} user={user}>{user}</User>))}
             </div>    
